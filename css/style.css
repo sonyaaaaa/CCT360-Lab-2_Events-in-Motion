@@ -1,0 +1,167 @@
+/* Page Style */
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #f8f3ee;
+    color: #4b403b;
+    margin: 40px;
+    text-align: center;
+}
+
+/* Main Title */
+
+h1 {
+    font-size: 52px;
+    color: #6f5550;
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-size: 21px;
+    color: #6f5550;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Header */
+
+.header {
+    margin: 55px auto 25px auto;
+}
+
+.title-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.title-line span {
+    width: 80px;
+    height: 1px;
+    background-color: #b98f87;
+}
+
+.title-line h1 {
+    margin: 0;
+}
+
+.header p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+/* Album Cards */
+
+.album {
+    display: inline-block;
+
+    width: 300px;
+    height: 550px;
+
+    margin: 30px 15px;
+    padding: 18px;
+
+    vertical-align: top;
+
+    background-color: #fffaf6;
+    border: 1px solid #eaded6;
+    border-radius: 15px;
+}
+
+
+/* Album Images */
+
+.album img {
+    width: 100%;
+    height: 300px;
+
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* Album Titles */
+
+.album h2 {
+    height: 55px;
+
+    margin: 20px 0 5px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Artist and Year */
+
+.album p {
+    margin: 5px;
+}
+
+.album p:last-of-type {
+    margin-bottom: 15px;
+}
+
+
+/* Buttons */
+
+button {
+    font-family: Georgia, "Times New Roman", serif;
+
+    background-color: #b98f87;
+    color: white;
+
+    border: none;
+    padding: 10px 16px;
+    margin: 8px 3px;
+
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: #9f7770;
+}
+
+
+/* Selected Album */
+
+.selected {
+    background-color: #efe3dc;
+
+    width: 70%;
+    margin: 35px auto;
+    padding: 25px;
+
+    border-radius: 15px;
+}
+
+
+/* Visitor Section */
+
+.visitor {
+    margin: 50px auto;
+}
+
+input {
+    font-family: Georgia, "Times New Roman", serif;
+
+    width: 300px;
+    padding: 12px;
+
+    background-color: #fffaf6;
+
+    border: 1px solid #cdb9af;
+    border-radius: 20px;
+
+    text-align: center;
+}
+
+input:focus {
+    outline: 2px solid #d5aaa2;
+}
